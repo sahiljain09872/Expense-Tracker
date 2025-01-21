@@ -1,0 +1,60 @@
+.expense{
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    width: 100%;
+}
+
+.expensesAll{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border-radius: 20px;
+    /* background-color: #dda15e; */
+    background-color: #48cae4;
+    padding: 5px;
+}
+
+
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryDropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#category{
+    border-radius: 5px;
+    margin: 0 10px;
+    height: 30px;
+}
+
+
+.list {
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.list::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.removeExpense{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(154, 146, 146);
+}
+
+
+
+
+

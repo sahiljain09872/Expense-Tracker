@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+}
+
+#hideButton{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}

@@ -1,0 +1,15 @@
+body{
+  /* background-color: #bc6c25; */
+  background-color: #ade8f4;
+  padding: 10px;
+  margin: 0;
+}
+
+#showButton , #newButton{
+  margin: 10px 0;
+}
+
+button{
+  background-color: #fefae0;
+}
+
